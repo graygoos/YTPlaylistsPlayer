@@ -1,0 +1,37 @@
+# Created by Femi Aliu
+# Edit at 13:29 pm 23/05/24
+ 
+# macOS
+.DS_Store
+.DS_Store?
+*/.DS_Store
+*/**/.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Xcode projects
+*/**/xcuserdata/
+*.xcuserstate
+*/**/*.xcuserstate
+*/**/Breakpoints_v2.xcbkptlist
+
+### Xcode ###
+## User settings
+#.env
+#xcuserdata/
+*.xcscheme
+
+## Xcode 8 and earlier
+#*.xcscmblueprint
+#*.xccheckout
+
+### Xcode Patch ###
+#*.xcodeproj/*
+#!*.xcodeproj/project.pbxproj
+#!*.xcodeproj/xcshareddata/
+#!*.xcodeproj/project.xcworkspace/
+#!*.xcworkspace/contents.xcworkspacedata
+#/*.gcno
+#**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End

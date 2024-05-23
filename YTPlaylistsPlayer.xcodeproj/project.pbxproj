@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057157DB2BFB572400DC8C89 /* PlaylistListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157DA2BFB572400DC8C89 /* PlaylistListResponse.swift */; };
+		057157DD2BFB574C00DC8C89 /* PlaylistsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157DC2BFB574C00DC8C89 /* PlaylistsItems.swift */; };
+		057157DF2BFB578200DC8C89 /* PlaylistSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157DE2BFB578200DC8C89 /* PlaylistSnippet.swift */; };
+		057157E12BFB57BB00DC8C89 /* PlaylistSnippetThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157E02BFB57BB00DC8C89 /* PlaylistSnippetThumbnail.swift */; };
+		057157E42BFB582600DC8C89 /* TrackListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157E32BFB582600DC8C89 /* TrackListResponse.swift */; };
+		057157E62BFB584500DC8C89 /* TrackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157E52BFB584500DC8C89 /* TrackItem.swift */; };
+		057157E82BFB586700DC8C89 /* TrackSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157E72BFB586700DC8C89 /* TrackSnippet.swift */; };
+		057157EC2BFB58CC00DC8C89 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057157EB2BFB58CC00DC8C89 /* TrackDetailView.swift */; };
+		05A160442BEA8E9D00E4153D /* YTPlaylistsPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A160432BEA8E9D00E4153D /* YTPlaylistsPlayerApp.swift */; };
+		05A160462BEA8E9D00E4153D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A160452BEA8E9D00E4153D /* ContentView.swift */; };
+		05A160482BEA8E9F00E4153D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A160472BEA8E9F00E4153D /* Assets.xcassets */; };
+		05A1604B2BEA8E9F00E4153D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A1604A2BEA8E9F00E4153D /* Preview Assets.xcassets */; };
+		05A160552BEA932000E4153D /* YouTubeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A160542BEA932000E4153D /* YouTubeAPIService.swift */; };
+		05A1605D2BEA940900E4153D /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A1605C2BEA940900E4153D /* PlaylistsView.swift */; };
+		05A1605F2BEA942400E4153D /* PlaylistsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A1605E2BEA942400E4153D /* PlaylistsDetailView.swift */; };
+		05A160612BEA944A00E4153D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A160602BEA944900E4153D /* PlayerView.swift */; };
+		05A1606B2BEB7AAB00E4153D /* Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A1606A2BEB7AAB00E4153D /* Experiments.swift */; };
+		05BED2FE2BFCCF3E005A98B3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 05BED2FD2BFCCF3E005A98B3 /* GoogleSignIn */; };
+		05BED3002BFCCF3E005A98B3 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05BED2FF2BFCCF3E005A98B3 /* GoogleSignInSwift */; };
+		05BED3022BFCCF6D005A98B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3012BFCCF6D005A98B3 /* AppDelegate.swift */; };
+		05BED3042BFCCF9D005A98B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3032BFCCF9D005A98B3 /* SceneDelegate.swift */; };
+		05BED3062BFCCFE5005A98B3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3052BFCCFE5005A98B3 /* SignInView.swift */; };
+		05C070FE2BFB9934003564C3 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 05C070FD2BFB9934003564C3 /* YouTubeiOSPlayerHelper */; };
+		05F9189B2BFE2A8B00606F8B /* NoPlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		057157DA2BFB572400DC8C89 /* PlaylistListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListResponse.swift; sourceTree = "<group>"; };
+		057157DC2BFB574C00DC8C89 /* PlaylistsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsItems.swift; sourceTree = "<group>"; };
+		057157DE2BFB578200DC8C89 /* PlaylistSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSnippet.swift; sourceTree = "<group>"; };
+		057157E02BFB57BB00DC8C89 /* PlaylistSnippetThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSnippetThumbnail.swift; sourceTree = "<group>"; };
+		057157E32BFB582600DC8C89 /* TrackListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListResponse.swift; sourceTree = "<group>"; };
+		057157E52BFB584500DC8C89 /* TrackItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackItem.swift; sourceTree = "<group>"; };
+		057157E72BFB586700DC8C89 /* TrackSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackSnippet.swift; sourceTree = "<group>"; };
+		057157EB2BFB58CC00DC8C89 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
+		05A160402BEA8E9D00E4153D /* YTPlaylistsPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTPlaylistsPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A160432BEA8E9D00E4153D /* YTPlaylistsPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPlaylistsPlayerApp.swift; sourceTree = "<group>"; };
+		05A160452BEA8E9D00E4153D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05A160472BEA8E9F00E4153D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05A1604A2BEA8E9F00E4153D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05A160542BEA932000E4153D /* YouTubeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPIService.swift; sourceTree = "<group>"; };
+		05A1605C2BEA940900E4153D /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		05A1605E2BEA942400E4153D /* PlaylistsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsDetailView.swift; sourceTree = "<group>"; };
+		05A160602BEA944900E4153D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		05A1606A2BEB7AAB00E4153D /* Experiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiments.swift; sourceTree = "<group>"; };
+		05A1606C2BEB831900E4153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		05BED3012BFCCF6D005A98B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05BED3032BFCCF9D005A98B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05BED3052BFCCFE5005A98B3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPlaylistsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A1603D2BEA8E9D00E4153D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BED3002BFCCF3E005A98B3 /* GoogleSignInSwift in Frameworks */,
+				05C070FE2BFB9934003564C3 /* YouTubeiOSPlayerHelper in Frameworks */,
+				05BED2FE2BFCCF3E005A98B3 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057157E22BFB580A00DC8C89 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				057157E32BFB582600DC8C89 /* TrackListResponse.swift */,
+				057157E52BFB584500DC8C89 /* TrackItem.swift */,
+				057157E72BFB586700DC8C89 /* TrackSnippet.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		05A160372BEA8E9D00E4153D = {
+			isa = PBXGroup;
+			children = (
+				05A160422BEA8E9D00E4153D /* YTPlaylistsPlayer */,
+				05A160412BEA8E9D00E4153D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05A160412BEA8E9D00E4153D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A160402BEA8E9D00E4153D /* YTPlaylistsPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05A160422BEA8E9D00E4153D /* YTPlaylistsPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				05A1606C2BEB831900E4153D /* Info.plist */,
+				05A160432BEA8E9D00E4153D /* YTPlaylistsPlayerApp.swift */,
+				05BED3012BFCCF6D005A98B3 /* AppDelegate.swift */,
+				05BED3032BFCCF9D005A98B3 /* SceneDelegate.swift */,
+				05A160512BEA92CE00E4153D /* NetworkManager */,
+				05A160532BEA92F700E4153D /* Model */,
+				05A160522BEA92EC00E4153D /* Views */,
+				05A160472BEA8E9F00E4153D /* Assets.xcassets */,
+				05A160492BEA8E9F00E4153D /* Preview Content */,
+				05A1606A2BEB7AAB00E4153D /* Experiments.swift */,
+			);
+			path = YTPlaylistsPlayer;
+			sourceTree = "<group>";
+		};
+		05A160492BEA8E9F00E4153D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05A1604A2BEA8E9F00E4153D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05A160512BEA92CE00E4153D /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A160542BEA932000E4153D /* YouTubeAPIService.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		05A160522BEA92EC00E4153D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05A1605C2BEA940900E4153D /* PlaylistsView.swift */,
+				05A1605E2BEA942400E4153D /* PlaylistsDetailView.swift */,
+				05A160602BEA944900E4153D /* PlayerView.swift */,
+				05A160452BEA8E9D00E4153D /* ContentView.swift */,
+				057157EB2BFB58CC00DC8C89 /* TrackDetailView.swift */,
+				05BED3052BFCCFE5005A98B3 /* SignInView.swift */,
+				05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05A160532BEA92F700E4153D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05A1606D2BEB98D800E4153D /* Playlist */,
+				057157E22BFB580A00DC8C89 /* Track */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05A1606D2BEB98D800E4153D /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				057157DA2BFB572400DC8C89 /* PlaylistListResponse.swift */,
+				057157DC2BFB574C00DC8C89 /* PlaylistsItems.swift */,
+				057157DE2BFB578200DC8C89 /* PlaylistSnippet.swift */,
+				057157E02BFB57BB00DC8C89 /* PlaylistSnippetThumbnail.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05A1603F2BEA8E9D00E4153D /* YTPlaylistsPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A1604E2BEA8E9F00E4153D /* Build configuration list for PBXNativeTarget "YTPlaylistsPlayer" */;
+			buildPhases = (
+				05A1603C2BEA8E9D00E4153D /* Sources */,
+				05A1603D2BEA8E9D00E4153D /* Frameworks */,
+				05A1603E2BEA8E9D00E4153D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTPlaylistsPlayer;
+			packageProductDependencies = (
+				05C070FD2BFB9934003564C3 /* YouTubeiOSPlayerHelper */,
+				05BED2FD2BFCCF3E005A98B3 /* GoogleSignIn */,
+				05BED2FF2BFCCF3E005A98B3 /* GoogleSignInSwift */,
+			);
+			productName = YTPlaylistsPlayer;
+			productReference = 05A160402BEA8E9D00E4153D /* YTPlaylistsPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05A160382BEA8E9D00E4153D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					05A1603F2BEA8E9D00E4153D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 05A1603B2BEA8E9D00E4153D /* Build configuration list for PBXProject "YTPlaylistsPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05A160372BEA8E9D00E4153D;
+			packageReferences = (
+				05C070FC2BFB9934003564C3 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+				05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 05A160412BEA8E9D00E4153D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05A1603F2BEA8E9D00E4153D /* YTPlaylistsPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05A1603E2BEA8E9D00E4153D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A1604B2BEA8E9F00E4153D /* Preview Assets.xcassets in Resources */,
+				05A160482BEA8E9F00E4153D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A1603C2BEA8E9D00E4153D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057157E12BFB57BB00DC8C89 /* PlaylistSnippetThumbnail.swift in Sources */,
+				057157E42BFB582600DC8C89 /* TrackListResponse.swift in Sources */,
+				057157E62BFB584500DC8C89 /* TrackItem.swift in Sources */,
+				05F9189B2BFE2A8B00606F8B /* NoPlaylistsView.swift in Sources */,
+				05A160612BEA944A00E4153D /* PlayerView.swift in Sources */,
+				057157DF2BFB578200DC8C89 /* PlaylistSnippet.swift in Sources */,
+				057157E82BFB586700DC8C89 /* TrackSnippet.swift in Sources */,
+				05BED3042BFCCF9D005A98B3 /* SceneDelegate.swift in Sources */,
+				05BED3022BFCCF6D005A98B3 /* AppDelegate.swift in Sources */,
+				05A160552BEA932000E4153D /* YouTubeAPIService.swift in Sources */,
+				05A160462BEA8E9D00E4153D /* ContentView.swift in Sources */,
+				057157DB2BFB572400DC8C89 /* PlaylistListResponse.swift in Sources */,
+				05A1605D2BEA940900E4153D /* PlaylistsView.swift in Sources */,
+				05A160442BEA8E9D00E4153D /* YTPlaylistsPlayerApp.swift in Sources */,
+				05A1606B2BEB7AAB00E4153D /* Experiments.swift in Sources */,
+				057157DD2BFB574C00DC8C89 /* PlaylistsItems.swift in Sources */,
+				057157EC2BFB58CC00DC8C89 /* TrackDetailView.swift in Sources */,
+				05BED3062BFCCFE5005A98B3 /* SignInView.swift in Sources */,
+				05A1605F2BEA942400E4153D /* PlaylistsDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05A1604C2BEA8E9F00E4153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05A1604D2BEA8E9F00E4153D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05A1604F2BEA8E9F00E4153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YTPlaylistsPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LYJPF7G96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YTPlaylistsPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinciti.YTPlaylistsPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05A160502BEA8E9F00E4153D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YTPlaylistsPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LYJPF7G96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YTPlaylistsPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinciti.YTPlaylistsPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A1603B2BEA8E9D00E4153D /* Build configuration list for PBXProject "YTPlaylistsPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A1604C2BEA8E9F00E4153D /* Debug */,
+				05A1604D2BEA8E9F00E4153D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A1604E2BEA8E9F00E4153D /* Build configuration list for PBXNativeTarget "YTPlaylistsPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A1604F2BEA8E9F00E4153D /* Debug */,
+				05A160502BEA8E9F00E4153D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		05C070FC2BFB9934003564C3 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05BED2FD2BFCCF3E005A98B3 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		05BED2FF2BFCCF3E005A98B3 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		05C070FD2BFB9934003564C3 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05C070FC2BFB9934003564C3 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05A160382BEA8E9D00E4153D /* Project object */;
+}
