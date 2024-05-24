@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct YTPlaylistsPlayerApp: App {
+    @StateObject private var signInViewModel = SignInViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            PlaylistsView()
+            if signInViewModel.isSignedIn {
+                PlaylistsView()
+            } else {
+                SignInView()
+                    .environmentObject(signInViewModel)
+            }
+            
         }
     }
 }

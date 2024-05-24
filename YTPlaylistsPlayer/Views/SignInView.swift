@@ -14,11 +14,11 @@ class SignInViewModel: ObservableObject {
 }
 
 struct SignInView: View {
-    @State private var isSignedIn = false
+    @EnvironmentObject var signInViewModel: SignInViewModel
 
     var body: some View {
         VStack {
-            if isSignedIn {
+            if signInViewModel.isSignedIn {
                 Text("Signed In")
                 // Navigate to PlaylistsView or other content
             } else {
@@ -26,7 +26,7 @@ struct SignInView: View {
                     GIDSignIn.sharedInstance.signIn(withPresenting: getRootViewController()) { user, error in
                         if let user = user {
                             // Handle successful sign-in
-                            isSignedIn = true
+                            signInViewModel.isSignedIn = true
                         } else if let error = error {
                             print("Sign-in error: \(error.localizedDescription)")
                         }
