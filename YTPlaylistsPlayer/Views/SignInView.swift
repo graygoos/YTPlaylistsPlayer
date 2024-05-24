@@ -9,6 +9,10 @@ import SwiftUI
 import GoogleSignIn
 import GoogleSignInSwift
 
+class SignInViewModel: ObservableObject {
+    @Published var isSignedIn = false
+}
+
 struct SignInView: View {
     @State private var isSignedIn = false
 
