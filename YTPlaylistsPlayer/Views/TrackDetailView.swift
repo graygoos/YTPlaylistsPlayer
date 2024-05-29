@@ -10,16 +10,15 @@ import AVKit
 import YouTubeiOSPlayerHelper
 
 struct TrackDetailView: View {
-    let track: TrackItem?
-//    let player = PlayerView(videoID: " ")
-
+    let track: TrackItem
+    
     var body: some View {
         VStack {
-            Text(track?.snippet.title ?? "")
+            Text(track.snippet.title)
                 .font(.title3)
 //                .padding()
 
-            if let videoId = track?.snippet.resourceId?.videoId {
+            if let videoId = track.snippet.resourceId?.videoId {
                 PlayerView(videoID: videoId)
                     .frame(height: 300)
             } else {
@@ -39,10 +38,10 @@ struct TrackDetailView: View {
              */
             Spacer()
         }
-//        .navigationTitle(track?.snippet.title ?? "")
-//        .navigationBarTitleDisplayMode(.inline)
+        
     }
 }
+
 
 
 //#Preview {
