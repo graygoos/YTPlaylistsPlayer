@@ -13,12 +13,12 @@ struct YTPlaylistsPlayerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if signInViewModel.isSignedIn {
+//            if signInViewModel.isSignedIn {
                 PlaylistsView()
-            } else {
-                SignInView()
-                    .environmentObject(signInViewModel)
-            }
+//            } else {
+//                SignInView()
+//                    .environmentObject(signInViewModel)
+//            }
             
         }
     }
