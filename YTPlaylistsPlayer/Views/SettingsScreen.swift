@@ -1,5 +1,5 @@
 //
-//  SettingsView.swift
+//  SettingsScreen.swift
 //  YTPlaylistsPlayer
 //
 //  Created by Femi Aliu on 29/05/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct SettingsScreen: View {
     var body: some View {
         Form {
             Text("Sign out")
@@ -16,5 +16,5 @@ struct SettingsView: View {
 }
 
 #Preview {
-    SettingsView()
+    SettingsScreen()
 }
