@@ -15,7 +15,7 @@ struct PlaylistsView: View {
         NavigationStack {
             List(playlists, id: \.id) { playlist in
                 NavigationLink(destination: PlaylistDetailView(playlistId: playlist.id, playlistName: playlist.snippet.title)) {
-                    Text(playlist.snippet.title)
+                    PlaylistRowView(playlist: playlist)
                 }
             }
             .navigationTitle("My YouTube Playlists")
