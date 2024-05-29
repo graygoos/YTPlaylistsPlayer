@@ -30,6 +30,7 @@
 		05BED3042BFCCF9D005A98B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3032BFCCF9D005A98B3 /* SceneDelegate.swift */; };
 		05BED3062BFCCFE5005A98B3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3052BFCCFE5005A98B3 /* SignInView.swift */; };
 		05C070FE2BFB9934003564C3 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 05C070FD2BFB9934003564C3 /* YouTubeiOSPlayerHelper */; };
+		05C866192C0751E900252D3B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C866182C0751E900252D3B /* SettingsView.swift */; };
 		05F9189B2BFE2A8B00606F8B /* NoPlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		05BED3012BFCCF6D005A98B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05BED3032BFCCF9D005A98B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05BED3052BFCCFE5005A98B3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		05C866182C0751E900252D3B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPlaylistsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				05A1605C2BEA940900E4153D /* PlaylistsView.swift */,
+				05C866182C0751E900252D3B /* SettingsView.swift */,
 				05A1605E2BEA942400E4153D /* PlaylistsDetailView.swift */,
 				05A160602BEA944900E4153D /* PlayerView.swift */,
 				05A160452BEA8E9D00E4153D /* ContentView.swift */,
@@ -250,6 +253,7 @@
 				057157E62BFB584500DC8C89 /* TrackItem.swift in Sources */,
 				05F9189B2BFE2A8B00606F8B /* NoPlaylistsView.swift in Sources */,
 				05A160612BEA944A00E4153D /* PlayerView.swift in Sources */,
+				05C866192C0751E900252D3B /* SettingsView.swift in Sources */,
 				057157DF2BFB578200DC8C89 /* PlaylistSnippet.swift in Sources */,
 				057157E82BFB586700DC8C89 /* TrackSnippet.swift in Sources */,
 				05BED3042BFCCF9D005A98B3 /* SceneDelegate.swift in Sources */,
