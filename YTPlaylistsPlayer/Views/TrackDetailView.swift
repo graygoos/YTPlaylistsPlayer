@@ -9,39 +9,40 @@ import SwiftUI
 import AVKit
 import YouTubeiOSPlayerHelper
 
+
 struct TrackDetailView: View {
     let track: TrackItem
     
     var body: some View {
-        VStack {
-            Text(track.snippet.title)
-                .font(.title3)
-//                .padding()
-
-            if let videoId = track.snippet.resourceId?.videoId {
-                PlayerView(videoID: videoId)
-                    .frame(height: 300)
-            } else {
-                Text("No video available")
-                    .foregroundColor(.red)
-            }
-            /*
-            HStack {
-                Button("Play") {
-                    player.play()
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                if let videoId = track.snippet.resourceId?.videoId {
+                    PlayerView(videoID: videoId)
+                        .frame(height: 300)
+                } else {
+                    Text("No video available")
+                        .foregroundColor(.red)
                 }
                 
-                Button("Stop") {
-                    player.stop()
-                }
+                Text(track.snippet.title)
+                    .font(.largeTitle)
+                    .padding(.bottom, 8)
+                
+                Text("Published at: \(track.snippet.publishedAt)")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                
+                Text(track.snippet.description)
+                    .font(.body)
+                
+                Spacer()
             }
-             */
-            Spacer()
+            .padding()
+            .navigationTitle(track.snippet.title)
         }
         
     }
 }
-
 
 
 //#Preview {
