@@ -9,10 +9,13 @@ import SwiftUI
 
 struct SettingsScreen: View {
     var body: some View {
-        Form {
-            Button(action: {}) {
-                Text("Sign out")
+        NavigationStack {
+            Form {
+                Button(action: {}) {
+                    Text("Sign out")
+                }
             }
+            .navigationTitle("Settings")
         }
     }
 }
