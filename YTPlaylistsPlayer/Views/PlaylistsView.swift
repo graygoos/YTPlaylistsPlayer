@@ -18,8 +18,14 @@ struct PlaylistsView: View {
                 }
             }
             .navigationTitle("My YouTube Playlists")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button(action: {}) {
+                        Image(systemName: "gear")
+                    }
+                }
+            }
             .onAppear {
-                print(ProcessInfo.processInfo.environment)
                 fetchPlaylists()
             }
         }
