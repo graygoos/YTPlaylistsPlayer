@@ -10,7 +10,9 @@ import SwiftUI
 struct SettingsScreen: View {
     var body: some View {
         Form {
-            Text("Sign out")
+            Button(action: {}) {
+                Text("Sign out")
+            }
         }
     }
 }
