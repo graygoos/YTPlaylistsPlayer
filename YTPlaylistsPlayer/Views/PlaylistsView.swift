@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PlaylistsView: View {
     @State private var playlists: [PlaylistsItems] = []
+    @State private var showSettingsScreen = false
     
     var body: some View {
         NavigationStack {
@@ -20,9 +21,16 @@ struct PlaylistsView: View {
             .navigationTitle("My YouTube Playlists")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(action: {}) {
+                    Button(action: {
+                        self.showSettingsScreen.toggle()
+                    }) {
                         Image(systemName: "gear")
                     }
+                    .sheet(isPresented: $showSettingsScreen, onDismiss: {
+                        
+                    }, content: {
+                        SettingsScreen()
+                    })
                 }
             }
             .onAppear {
