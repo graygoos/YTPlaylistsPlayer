@@ -24,6 +24,9 @@
 		05A1605F2BEA942400E4153D /* PlaylistsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A1605E2BEA942400E4153D /* PlaylistsDetailView.swift */; };
 		05A160612BEA944A00E4153D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A160602BEA944900E4153D /* PlayerView.swift */; };
 		05A1606B2BEB7AAB00E4153D /* Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A1606A2BEB7AAB00E4153D /* Experiments.swift */; };
+		05B793482C0765A200037C3F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 05B793472C0765A200037C3F /* GoogleSignIn */; };
+		05B7934A2C0765A200037C3F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05B793492C0765A200037C3F /* GoogleSignInSwift */; };
+		05B7934C2C0765C000037C3F /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 05B7934B2C0765C000037C3F /* YouTubeiOSPlayerHelper */; };
 		05BED2FE2BFCCF3E005A98B3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 05BED2FD2BFCCF3E005A98B3 /* GoogleSignIn */; };
 		05BED3002BFCCF3E005A98B3 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05BED2FF2BFCCF3E005A98B3 /* GoogleSignInSwift */; };
 		05BED3022BFCCF6D005A98B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3012BFCCF6D005A98B3 /* AppDelegate.swift */; };
@@ -31,6 +34,10 @@
 		05BED3062BFCCFE5005A98B3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BED3052BFCCFE5005A98B3 /* SignInView.swift */; };
 		05C070FE2BFB9934003564C3 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 05C070FD2BFB9934003564C3 /* YouTubeiOSPlayerHelper */; };
 		05C866192C0751E900252D3B /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C866182C0751E900252D3B /* SettingsScreen.swift */; };
+		05E3430C2C07671500CA28E2 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 05E3430B2C07671500CA28E2 /* YouTubeiOSPlayerHelper */; };
+		05E3430E2C07672C00CA28E2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 05E3430D2C07672C00CA28E2 /* GoogleSignIn */; };
+		05E343102C07672C00CA28E2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05E3430F2C07672C00CA28E2 /* GoogleSignInSwift */; };
+		05E343122C0772D100CA28E2 /* PlaylistRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E343112C0772D100CA28E2 /* PlaylistRowView.swift */; };
 		05F9189B2BFE2A8B00606F8B /* NoPlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +65,7 @@
 		05BED3032BFCCF9D005A98B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05BED3052BFCCFE5005A98B3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		05C866182C0751E900252D3B /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		05E343112C0772D100CA28E2 /* PlaylistRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRowView.swift; sourceTree = "<group>"; };
 		05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPlaylistsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,9 +74,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E343102C07672C00CA28E2 /* GoogleSignInSwift in Frameworks */,
+				05B7934A2C0765A200037C3F /* GoogleSignInSwift in Frameworks */,
+				05E3430E2C07672C00CA28E2 /* GoogleSignIn in Frameworks */,
+				05E3430C2C07671500CA28E2 /* YouTubeiOSPlayerHelper in Frameworks */,
 				05BED3002BFCCF3E005A98B3 /* GoogleSignInSwift in Frameworks */,
+				05B793482C0765A200037C3F /* GoogleSignIn in Frameworks */,
 				05C070FE2BFB9934003564C3 /* YouTubeiOSPlayerHelper in Frameworks */,
 				05BED2FE2BFCCF3E005A98B3 /* GoogleSignIn in Frameworks */,
+				05B7934C2C0765C000037C3F /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +154,7 @@
 				05A1605C2BEA940900E4153D /* PlaylistsView.swift */,
 				05C866182C0751E900252D3B /* SettingsScreen.swift */,
 				05A1605E2BEA942400E4153D /* PlaylistsDetailView.swift */,
+				05E343112C0772D100CA28E2 /* PlaylistRowView.swift */,
 				05A160602BEA944900E4153D /* PlayerView.swift */,
 				05A160452BEA8E9D00E4153D /* ContentView.swift */,
 				057157EB2BFB58CC00DC8C89 /* TrackDetailView.swift */,
@@ -189,6 +204,12 @@
 				05C070FD2BFB9934003564C3 /* YouTubeiOSPlayerHelper */,
 				05BED2FD2BFCCF3E005A98B3 /* GoogleSignIn */,
 				05BED2FF2BFCCF3E005A98B3 /* GoogleSignInSwift */,
+				05B793472C0765A200037C3F /* GoogleSignIn */,
+				05B793492C0765A200037C3F /* GoogleSignInSwift */,
+				05B7934B2C0765C000037C3F /* YouTubeiOSPlayerHelper */,
+				05E3430B2C07671500CA28E2 /* YouTubeiOSPlayerHelper */,
+				05E3430D2C07672C00CA28E2 /* GoogleSignIn */,
+				05E3430F2C07672C00CA28E2 /* GoogleSignInSwift */,
 			);
 			productName = YTPlaylistsPlayer;
 			productReference = 05A160402BEA8E9D00E4153D /* YTPlaylistsPlayer.app */;
@@ -264,6 +285,7 @@
 				05A1605D2BEA940900E4153D /* PlaylistsView.swift in Sources */,
 				05A160442BEA8E9D00E4153D /* YTPlaylistsPlayerApp.swift in Sources */,
 				05A1606B2BEB7AAB00E4153D /* Experiments.swift in Sources */,
+				05E343122C0772D100CA28E2 /* PlaylistRowView.swift in Sources */,
 				057157DD2BFB574C00DC8C89 /* PlaylistsItems.swift in Sources */,
 				057157EC2BFB58CC00DC8C89 /* TrackDetailView.swift in Sources */,
 				05BED3062BFCCFE5005A98B3 /* SignInView.swift in Sources */,
@@ -506,6 +528,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		05B793472C0765A200037C3F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		05B793492C0765A200037C3F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		05B7934B2C0765C000037C3F /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05C070FC2BFB9934003564C3 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
 		05BED2FD2BFCCF3E005A98B3 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
@@ -520,6 +557,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 05C070FC2BFB9934003564C3 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
 			productName = YouTubeiOSPlayerHelper;
+		};
+		05E3430B2C07671500CA28E2 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05C070FC2BFB9934003564C3 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+		05E3430D2C07672C00CA28E2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		05E3430F2C07672C00CA28E2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05BED2FC2BFCCF3E005A98B3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
