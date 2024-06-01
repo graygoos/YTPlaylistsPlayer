@@ -15,6 +15,10 @@ YouTube Playlist Player is an iOS application that allows users to retrieve and 
 - Retrieve YouTube playlists
 - Play YouTube videos from playlists
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
 ## Requirements
 
