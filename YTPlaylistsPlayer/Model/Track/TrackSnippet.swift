@@ -14,7 +14,7 @@ struct TrackSnippet: Decodable {
     let description: String
     let position: Int
     let resourceId: ResourceId?
-    let thumbnails: Thumbnails
+    let thumbnails: Thumbnails?
     
     struct ResourceId: Decodable {
         let kind: String
@@ -32,5 +32,10 @@ struct TrackSnippet: Decodable {
         let url: String
         let width: Int
         let height: Int
+        let medium: ThumbnailSize?
+        
+        struct ThumbnailSize: Decodable {
+            let url: String
+        }
     }
 }

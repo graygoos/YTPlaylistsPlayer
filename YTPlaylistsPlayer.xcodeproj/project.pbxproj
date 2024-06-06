@@ -38,6 +38,8 @@
 		05E3430E2C07672C00CA28E2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 05E3430D2C07672C00CA28E2 /* GoogleSignIn */; };
 		05E343102C07672C00CA28E2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05E3430F2C07672C00CA28E2 /* GoogleSignInSwift */; };
 		05E343122C0772D100CA28E2 /* PlaylistRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E343112C0772D100CA28E2 /* PlaylistRowView.swift */; };
+		05E343142C07DFCB00CA28E2 /* TrackRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E343132C07DFCB00CA28E2 /* TrackRowView.swift */; };
+		05E343162C07E00700CA28E2 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E343152C07E00700CA28E2 /* RemoteImage.swift */; };
 		05F9189B2BFE2A8B00606F8B /* NoPlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		05BED3052BFCCFE5005A98B3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		05C866182C0751E900252D3B /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		05E343112C0772D100CA28E2 /* PlaylistRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRowView.swift; sourceTree = "<group>"; };
+		05E343132C07DFCB00CA28E2 /* TrackRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRowView.swift; sourceTree = "<group>"; };
+		05E343152C07E00700CA28E2 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPlaylistsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +164,8 @@
 				057157EB2BFB58CC00DC8C89 /* TrackDetailView.swift */,
 				05BED3052BFCCFE5005A98B3 /* SignInView.swift */,
 				05F9189A2BFE2A8B00606F8B /* NoPlaylistsView.swift */,
+				05E343132C07DFCB00CA28E2 /* TrackRowView.swift */,
+				05E343152C07E00700CA28E2 /* RemoteImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 				057157DD2BFB574C00DC8C89 /* PlaylistsItems.swift in Sources */,
 				057157EC2BFB58CC00DC8C89 /* TrackDetailView.swift in Sources */,
 				05BED3062BFCCFE5005A98B3 /* SignInView.swift in Sources */,
+				05E343162C07E00700CA28E2 /* RemoteImage.swift in Sources */,
 				05A1605F2BEA942400E4153D /* PlaylistsDetailView.swift in Sources */,
+				05E343142C07DFCB00CA28E2 /* TrackRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

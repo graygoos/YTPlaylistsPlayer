@@ -16,7 +16,8 @@ struct PlaylistDetailView: View {
     var body: some View {
         List(tracks, id: \.id) { track in
             NavigationLink(destination: TrackDetailView(track: track)) {
-                Text("\(track.snippet.position + 1). \(track.snippet.title)")
+//                Text("\(track.snippet.position + 1). \(track.snippet.title)")
+                TrackRowView(track: track)
             }
         }
         .navigationTitle(playlistName)
