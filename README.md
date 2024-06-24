@@ -3,14 +3,19 @@
 
 YouTube Playlist Player is an iOS application that allows users to retrieve and play their YouTube playlists. The app utilizes GoogleSignIn for authentication and YouTubeiOSPlayerHelper for playing YouTube videos.
 
-
-
+<p align="center">
+    <img src="https://github.com/graygoos/YTPlaylistsPlayer/assets/52054174/efa7cde5-698f-4ee3-89dd-f439607d6890" width="250" height="250">
+</p>
 
 ## Features
 
 - Sign in with Google
 - Retrieve YouTube playlists
 - Play YouTube videos from playlists
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Requirements
