@@ -24,7 +24,7 @@ struct SignInView: View {
             } else {
                 GoogleSignInButton {
                     GIDSignIn.sharedInstance.signIn(withPresenting: getRootViewController()) { user, error in
-                        if let user = user {
+                        if user != nil {
                             // Handle successful sign-in
                             signInViewModel.isSignedIn = true
                         } else if let error = error {
